@@ -14,6 +14,6 @@ function iterate(callback)
   return list
 }
 
-function doToAray(array, callback){
+function doToArray(array, callback){
   array.forEach(callback)
 }
