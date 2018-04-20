@@ -13,3 +13,7 @@ function iterate(callback)
   list.forEach(callback)
   return list
 }
+
+function doToAray(array, callback){
+  array.forEach(callback)
+}
