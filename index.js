@@ -10,4 +10,5 @@ function iterativeLog(array){
 function iterate(callback)
 {
   list = ['Kim', 'is', 'fat']
+  list.forEach(callback)
 }
