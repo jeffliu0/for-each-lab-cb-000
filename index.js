@@ -11,4 +11,5 @@ function iterate(callback)
 {
   list = ['Kim', 'is', 'fat']
   list.forEach(callback)
+  return list
 }
