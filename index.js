@@ -1,7 +1,3 @@
 function iterativeLog(array){
-  array.forEach( (element, index, array) => {console.log(`${index}:${element}`) })
+  array.forEach(callback)
 }
-
-log = ["Kim", "Than", "Is", "Fat"]
-
-iterativeLog(log)
